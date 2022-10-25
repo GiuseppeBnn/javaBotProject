@@ -1,2 +1,3 @@
 # javaBotProject
- Progetto di bot telegram in java. Fase iniziale.
+ Piccolo progetto di un echo bot telegram scritto in java/maven. Fase iniziale.
+
