@@ -42,6 +42,7 @@ public class JavaBot extends TelegramLongPollingBot {
                             }catch(TelegramApiException e){ e.printStackTrace();}   break;
                     default:                                      //caso default
                             sendMessage.setText(messaggioRicevuto);
+
                             try{
                                execute(sendMessage);
                             }catch(TelegramApiException e){ e.printStackTrace();}  break;
